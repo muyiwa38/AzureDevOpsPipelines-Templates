@@ -1,4 +1,7 @@
 trigger:
+- task: SonarQubePrepare@5
+  inputs:
+    scannerMode: 'Other'
 - master
 
 variables:
